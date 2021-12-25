@@ -44,13 +44,13 @@ public class RegistrationPage {
     Helper helper = new Helper();
 
     public RegistrationPage accountLinkClick() {
-        helper.scrollIntoView(account);
+        helper.scrollIntoView(account,false);
         account.click();
         return this;
     }
 
     public RegistrationPage myAccountClick() {
-        helper.scrollIntoView(myAccount);
+        helper.scrollIntoView(myAccount,false);
         myAccount.click();
         return this;
     }

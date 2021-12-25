@@ -9,7 +9,7 @@ public class myWait {
 
     public static WebDriverWait getMyWebDriverWait() {
         if (myWebDriverWait == null) {
-            myWebDriverWait = new WebDriverWait(myWebDriver.getMyWebDriver(), 30, 1000);
+            myWebDriverWait = new WebDriverWait(myWebDriver.getMyWebDriver(), 30, 2000);
         }
         return myWebDriverWait;
     }
